@@ -14,12 +14,19 @@ let body_count = 2
 // --------------------------------------------------------------------------------------------------------- //
 // String functions
 
-let myname = new String("Mohit Jain is my name")
-//console.log(myname.split(' '));
-console.log(myname.replace('M', 'R'));
-console.log(myname.includes("Jain"));
-console.log(myname.toUpperCase());
+// let myname = new String("Mohit Jain is my name")
+// //console.log(myname.split(' '));
+// console.log(myname.replace('M', 'R'));
+// console.log(myname.includes("Jain"));
+// console.log(myname.toUpperCase());
 
-let rename = "   heeloendd "
-console.log(rename.trim());
+// let rename = "   heeloendd "
+// console.log(rename.trim());
 
+// let num = 1000000
+// console.log(num.toLocaleString('en-IN')); // to put prper commas in number a/c to indian system
+
+let newnum = 123.896
+console.log(newnum.toFixed(2)); // round off to two decimal
+
+console.log(newnum.toPrecision(3)); // it works on before decimal point, 3 means give precise value of 3 digit
